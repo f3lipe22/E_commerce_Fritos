@@ -1,0 +1,67 @@
+
+
+//Comandos
+	
+
+	
+	
+
+//Librerias
+	npm install express //framework
+	npm i -D nodemon 
+	npm i mongoose //Base datos no rek
+
+	npm i jsonwebtoken //verifica que el usuario este 
+	npm i bcrypt
+	npm i dotenv
+
+
+- Mongo atlas
+		Registar/crear base de datos
+		Opcioncin Drivers
+
+- Mongo compass
+		https://www.mongodb.com/try/download/compass
+		Ingresar LINK
+
+		Link 1 - Personal
+		mongodb+srv://root:12345@cluster0.rq5dtyj.mongodb.net/?retryWrites=true&w=majority
+
+		Link 1 - Personal
+		mongodb+srv://root:12345@cluster0.nrptocs.mongodb.net/?retryWrites=true&w=majority
+
+		Link 1 - Diego
+		mongodb+srv://root:12345@cluster0.xsvhcwa.mongodb.net/?retryWrites=true&w=majority
+
+
+
+
+
+
+//Correr servidor
+	npm run dev
+
+//Postman
+	//Registrar Usuario
+	- POST: http://127.0.0.1:7777/api/usuarios
+	- Body,raw,json:
+		{
+		    "nombre": "Prueba",
+		    "password": "Clave222",
+		    "email": "correo32@gmail.com"
+		}
+		ENVIAR (Se crea un usuario en la base de datos Mongous/Se puede ver en Cmposer)
+
+
+	//Confirmar Usuario
+		GET: http://127.0.0.1:7777/api/usuarios/confirmar/tokendelmongos
+
+	//Autenticar Usuario
+		POST: http://127.0.0.1:7777/api/usuarios/login
+		{
+		    "password": "Clave222",
+		    "email": "correo32@gmail.com"
+		}
+
+
+		

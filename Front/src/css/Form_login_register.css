@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+
+.buttonl {
+	border-radius: 20px;
+	border: 1px solid #000000;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.button2 {
+	border-radius: 20px;
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+	width: 140px;
+	height: 40px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	justify-content: center;
+}
+
+.buttonl:active {
+	transform: scale(0.95);
+}
+
+.buttonl:focus {
+	outline: none;
+}
+
+.buttonl .ghost {
+	background-color: #ffffff;
+	border-color: #FFFFFF;
+	color: #FF416C;
+}
+
+.form_login {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
+
+.form_register {
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	padding: 0 50px;
+	height: 100%;
+  }
+
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 0 20px; /* Añade margen entre las dos columnas */
+  }
+
+  
+.input_login {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 340px;
+}
+
+.container5 {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 400px;
+	max-width: 100%;
+	min-height: 460px;
+}
+
+.container6 {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 900px;
+	max-width: 100%;
+	min-height: 460px;
+	margin: 0 auto; /* Centrar horizontalmente */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente (alternativa) */
+    align-items: center; /* Centrar verticalmente */
+}
+.Container_option{
+	margin: 0 auto; /* Centrar horizontalmente */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente (alternativa) */
+    align-items: center; /* Centrar verticalmente */
+}
+.form-container {
+	position: relative;
+	top: 0;
+	height: 100%;
+	transition: all 0.6s ease-in-out;
+}
+
+.form-container .text h1 {
+	margin-left: 40px;
+}
+
+
+
+
+
